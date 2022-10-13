@@ -1,6 +1,30 @@
-section.filter{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px;
+section.filter {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  margin: 50px;
+  // background-color: aquamarine;
+  form {
+    input {
+      background-color: rgb(85, 85, 85);
+      outline: none;
+      border: none;
+      padding: 13px;
+      border-radius: 5px;
+      color: white;
+      width: auto;
+    }
+  }
+  div {
+    select {
+      background-color: rgb(85, 85, 85);
+      color: white;
+      font-family: inherit;
+      padding: 12px;
+      width: 200px;
+      border: none;
+      border-radius: 5px;
+    }
+  }
 }
