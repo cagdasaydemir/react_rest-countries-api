@@ -1,6 +1,6 @@
 header{
-    color: white;
-    background-color: rgb(47, 47, 47);
+    color: var(--text-color);
+    background-color: var(--article-color);
     display: flex;
     justify-content: space-between;
     align-items: center;

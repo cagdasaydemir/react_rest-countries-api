@@ -1,5 +1,6 @@
   article {
-    color: white;
+    color: var(--text-color);
+   
 
     div.country {
       display: flex;
@@ -14,7 +15,8 @@
         max-height: 190px;
         justify-content: center;
         align-items: flex-start;
-        background-color: rgb(41, 39, 39);
+       
+    background-color: var(--article-color);
         border-radius: 5px 5px 0 0;
 
         img {
@@ -29,7 +31,7 @@
         height: 180px;
         border-radius: 0 0 5px 5px;
         width: inherit;
-        background-color: rgb(41, 39, 39);
+        background-color: var(--article-color);
         padding: 8px 8px 12px 20px;
         justify-content: flex-end;
 
