@@ -18,7 +18,7 @@ const Countries = () => {
 
   return (
     <>
-      <section className="grid">
+      <section>
         {countries.map((country, index) => {
           return (
            <Country country={country} index={index}/>
