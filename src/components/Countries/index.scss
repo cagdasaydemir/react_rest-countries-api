@@ -1,7 +1,7 @@
-section {
-  margin: 20px;
+section.countries {
+  margin: 50px;
   display: flex;
-  gap: 100px;
+  gap: 50px;
   flex-wrap: wrap;
-justify-content: center;
+justify-content: space-between;
 }

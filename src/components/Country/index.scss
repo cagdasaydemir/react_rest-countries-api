@@ -1,23 +1,17 @@
-section {
-  margin: 20px;
-  display: flex;
-  gap: 100px;
-  flex-wrap: wrap;
-
   article {
     color: white;
 
     div.country {
       display: flex;
       flex-direction: column;
-      width: 470px;
+      width: 280px;
       border-radius: 0 0 5px 5px;
       box-shadow: 15px 15px 20px 10px #00000093;
       .img-container {
         display: flex;
         width: inherit;
-        min-height: 340px;
-        max-height: 340px;
+        min-height: 190px;
+        max-height: 190px;
         justify-content: center;
         align-items: flex-start;
         background-color: rgb(41, 39, 39);
@@ -30,17 +24,21 @@ section {
         }
       }
       .details {
+        display: flex;
+        flex-direction: column;
+        height: 180px;
         border-radius: 0 0 5px 5px;
         width: inherit;
         background-color: rgb(41, 39, 39);
-        padding: 20px 0 30px 30px;
+        padding: 8px 8px 12px 20px;
+        justify-content: flex-end;
 
         h3 {
-          padding-bottom: 10px;
+          padding-bottom: 8px;
           font-weight: 600;
         }
         h4 {
-          padding-bottom: 5px;
+          padding-bottom: 3px;
           span {
             font-weight: 300;
           }
@@ -48,4 +46,4 @@ section {
       }
     }
   }
-}
+
