@@ -26,7 +26,7 @@ const Countries = () => {
                   <img src={country.flags.svg} alt={country.name.common} />
                 </div>
                 <div className="details">
-                  <h2>{country.name.common}</h2>
+                  <h3>{country.name.common}</h3>
                   <h4>
                     Capital: <span>{country.capital}</span>
                   </h4>
