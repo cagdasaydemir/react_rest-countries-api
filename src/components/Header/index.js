@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Header = () => {
   return (
@@ -7,10 +8,12 @@ const Header = () => {
       <header>
         <div>
             <h1>Where in the world?</h1>
+            <div>
+    </div>
         </div>
       
 <div>
-    icon
+<FontAwesomeIcon icon="fa-solid fa-compass" size="3x" />
 </div>
 
       </header>
