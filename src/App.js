@@ -1,19 +1,21 @@
 import "./App.scss";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faCompass } from "@fortawesome/free-solid-svg-icons";
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCompass } from '@fortawesome/free-solid-svg-icons'
-  
-import Countries from "./components/Countries";
-import Filter from "./components/Filter";
-import Header from "./components/Header";
+import { Routes, Route } from "react-router-dom";
+
+import Layout from "./pages/Layout";
+import CountriesPage from "./pages/CountriesPage";
 
 function App() {
-  library.add( faCompass)
+  library.add(faCompass);
   return (
     <>
-    <Header/>
-    <Filter/>
-    <Countries />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route exact path="/" element={<CountriesPage />} />
+        </Route>
+      </Routes>
     </>
   );
 }
